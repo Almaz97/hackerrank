@@ -11,6 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Strings$swap_case.coverage" NAME="swap_case Coverage Results" MODIFIED="1537285636252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Strings$mutations.coverage" NAME="mutations Coverage Results" MODIFIED="1537286464639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Strings$wyn.coverage" NAME="wyn Coverage Results" MODIFIED="1537286003200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Strings$string_split_and_join.coverage" NAME="string_split_and_join Coverage Results" MODIFIED="1537285999752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -34,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wyn.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wyn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wyn.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <caret line="3" column="69" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mutations.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mutations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -58,6 +68,7 @@
         <option value="$PROJECT_DIR$/swap_case.py" />
         <option value="$PROJECT_DIR$/string_split_and_join.py" />
         <option value="$PROJECT_DIR$/wyn.py" />
+        <option value="$PROJECT_DIR$/mutations.py" />
       </list>
     </option>
   </component>
@@ -114,7 +125,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wyn">
+  <component name="RunManager" selected="Python.mutations">
+    <configuration name="mutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Strings" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mutations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="string_split_and_join" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Strings" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,9 +206,11 @@
       <item itemvalue="Python.swap_case" />
       <item itemvalue="Python.string_split_and_join" />
       <item itemvalue="Python.wyn" />
+      <item itemvalue="Python.mutations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mutations" />
         <item itemvalue="Python.wyn" />
         <item itemvalue="Python.string_split_and_join" />
         <item itemvalue="Python.swap_case" />
@@ -249,7 +281,14 @@
     <entry file="file://$PROJECT_DIR$/wyn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <caret line="3" column="69" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
