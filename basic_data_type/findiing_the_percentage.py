@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     # Need to round floating number to 2 decimal only after floating point
     average = round(sumOfScores / len(student_marks[query_name]), 2)
-    
+
     # Need to convert all float number to string, because if only 1 number after a floating point,
     # need to print 0 to fulfill the requirement of problem
     average = str(average)
