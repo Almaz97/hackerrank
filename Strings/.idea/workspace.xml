@@ -16,6 +16,7 @@
     <SUITE FILE_PATH="coverage/Strings$wyn.coverage" NAME="wyn Coverage Results" MODIFIED="1537286003200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Strings$text_alignment.coverage" NAME="text_alignment Coverage Results" MODIFIED="1537376543692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Strings$string_split_and_join.coverage" NAME="string_split_and_join Coverage Results" MODIFIED="1537285999752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Strings$text_wrap.coverage" NAME="text_wrap Coverage Results" MODIFIED="1537377506092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Strings$find_a_string.coverage" NAME="find_a_string Coverage Results" MODIFIED="1537288569400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -74,11 +75,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text_alignment.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="text_alignment.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text_alignment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text_wrap.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/text_wrap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="e#1#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,6 +115,7 @@
         <option value="$PROJECT_DIR$/find_a_string.py" />
         <option value="$PROJECT_DIR$/string_validators.py" />
         <option value="$PROJECT_DIR$/text_alignment.py" />
+        <option value="$PROJECT_DIR$/text_wrap.py" />
       </list>
     </option>
   </component>
@@ -158,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.text_alignment">
+  <component name="RunManager" selected="Python.text_wrap">
     <configuration name="find_a_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Strings" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,7 +249,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="wyn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="text_wrap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Strings" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,26 +262,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wyn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_wrap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.wyn" />
       <item itemvalue="Python.mutations" />
       <item itemvalue="Python.find_a_string" />
       <item itemvalue="Python.string_validators" />
       <item itemvalue="Python.text_alignment" />
+      <item itemvalue="Python.text_wrap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.text_wrap" />
         <item itemvalue="Python.text_alignment" />
         <item itemvalue="Python.string_validators" />
         <item itemvalue="Python.find_a_string" />
         <item itemvalue="Python.mutations" />
-        <item itemvalue="Python.wyn" />
       </list>
     </recent_temporary>
   </component>
@@ -402,8 +416,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/text_alignment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_wrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
