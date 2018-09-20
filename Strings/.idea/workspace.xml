@@ -12,6 +12,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Strings$string_validators.coverage" NAME="string_validators Coverage Results" MODIFIED="1537374605457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Strings$swap_case.coverage" NAME="swap_case Coverage Results" MODIFIED="1537285636252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Strings$string_formatting.coverage" NAME="string_formatting Coverage Results" MODIFIED="1537459246280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Strings$mutations.coverage" NAME="mutations Coverage Results" MODIFIED="1537287172637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Strings$wyn.coverage" NAME="wyn Coverage Results" MODIFIED="1537286003200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Strings$text_alignment.coverage" NAME="text_alignment Coverage Results" MODIFIED="1537376543692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -69,8 +70,8 @@
       <file leaf-file-name="string_validators.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string_validators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -84,14 +85,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text_wrap.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="text_wrap.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text_wrap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#1#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string_formatting.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/string_formatting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -116,6 +123,7 @@
         <option value="$PROJECT_DIR$/string_validators.py" />
         <option value="$PROJECT_DIR$/text_alignment.py" />
         <option value="$PROJECT_DIR$/text_wrap.py" />
+        <option value="$PROJECT_DIR$/string_formatting.py" />
       </list>
     </option>
   </component>
@@ -172,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.text_wrap">
+  <component name="RunManager" selected="Python.string_formatting">
     <configuration name="find_a_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Strings" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,7 +200,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="mutations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="string_formatting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Strings" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,7 +213,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mutations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string_formatting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,19 +277,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.mutations" />
       <item itemvalue="Python.find_a_string" />
       <item itemvalue="Python.string_validators" />
       <item itemvalue="Python.text_alignment" />
       <item itemvalue="Python.text_wrap" />
+      <item itemvalue="Python.string_formatting" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.string_formatting" />
         <item itemvalue="Python.text_wrap" />
         <item itemvalue="Python.text_alignment" />
         <item itemvalue="Python.string_validators" />
         <item itemvalue="Python.find_a_string" />
-        <item itemvalue="Python.mutations" />
       </list>
     </recent_temporary>
   </component>
@@ -372,17 +380,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swap_case.py">
+    <entry file="file://$PROJECT_DIR$/mutations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string_split_and_join.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="57">
+          <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -393,10 +394,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mutations.py">
+    <entry file="file://$PROJECT_DIR$/string_split_and_join.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="62" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -407,10 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string_validators.py">
+    <entry file="file://$PROJECT_DIR$/text_wrap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="46" selection-end-column="20" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -421,13 +422,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text_wrap.py">
+    <entry file="file://$PROJECT_DIR$/string_validators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#1#16#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swap_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string_formatting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
